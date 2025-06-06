@@ -1,0 +1,39 @@
+{
+  "providers": [
+    {
+      "file": "minecraft:font/sushi_upgrade_gui.png",
+      "type": "bitmap",
+      "chars": ["\uEAC9"],
+      "ascent": 13,
+      "height": 256
+    },
+    {
+      "file": "minecraft:font/sushi_main_gui.png",
+      "type": "bitmap",
+      "chars": ["\uEAAA"],
+      "ascent": 13,
+      "height": 256
+    },
+    {
+      "file": "minecraft:font/sushi_open_gui.png",
+      "type": "bitmap",
+      "chars": ["\uEAAB"],
+      "ascent": 13,
+      "height": 256
+    },
+    {
+      "file": "minecraft:font/sushi_store_gui.png",
+      "type": "bitmap",
+      "chars": ["\uEAAC"],
+      "ascent": 13,
+      "height": 256
+    },
+    {
+      "file": "minecraft:font/space.png",
+      "type": "bitmap",
+      "chars": ["\uEBBB"],
+      "ascent": -32768,
+      "height": -10
+    }
+  ]
+}
