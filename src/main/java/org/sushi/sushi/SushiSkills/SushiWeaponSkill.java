@@ -92,6 +92,7 @@ public class SushiWeaponSkill implements Listener {
 
     public static void saveWasabiPowerData(ItemStack item, WasabiPower wasabiPower) {
         ItemMeta meta = item.getItemMeta();
+        //와사비 파워 데이터 불러오기
         if (meta == null) return;
         String json = gson.toJson(wasabiPower);
         meta.getPersistentDataContainer().set(KEY, PersistentDataType.STRING, json);
