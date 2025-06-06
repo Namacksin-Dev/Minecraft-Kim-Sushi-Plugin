@@ -1,0 +1,26 @@
+info:
+  namespace: sushi_items
+items:
+  sushi:
+    display_name: "김초밥"
+    resource:
+      material: APPLE
+      generate: true
+      textures:
+        - items/sushi
+    events:
+      eat:
+        potion_effect:
+          type: SPEED
+          amplifier: 0
+          duration: 600
+        feed:
+          amount: 1
+          saturation: 3
+  none:
+    display_name: ""
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - items/none

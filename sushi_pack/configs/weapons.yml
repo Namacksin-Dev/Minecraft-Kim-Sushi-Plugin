@@ -1,0 +1,501 @@
+info:
+  namespace: sushi_weapons
+items:
+  sushi_sword:
+    name: 김초밥 검
+    durability:
+      max_durability: 550
+    resource:
+      material: "IRON_SWORD"
+      generate: true
+      texture: weapons/sushi_sword
+    attribute_modifiers:
+      mainhand:
+        attack_damage: 6.3
+        attack_speed: 1.6
+      offhand:
+        attack_damage: 6.3
+        attack_speed: 1.6
+    hide_tooltip: false
+  srirachasauce_sword:
+    name: 스리라차소스 검
+    durability:
+        max_durability: 244
+    resource:
+        material: "IRON_SWORD"
+        generate: true
+        texture: weapons/srirachasauce_sword
+    attribute_modifiers:
+        mainhand:
+          attack_damage: 6.45
+          attack_speed: 1.55
+        offhand:
+          attack_damage: 6.45
+          attack_speed: 1.55
+  tuna_sword:
+    name: 참치 검
+    durability:
+        max_durability: 301
+    resource:
+        material: "IRON_SWORD"
+        generate: true
+        texture: weapons/fish_sword
+    attribute_modifiers:
+        mainhand:
+          attack_damage: 6.63
+          attack_speed: 1.54
+        offhand:
+          attack_damage: 6.63
+          attack_speed: 1.54
+  salmon_sword:
+    name: 연어 검
+    durability:
+        max_durability: 421
+    resource:
+        material: "IRON_SWORD"
+        generate: true
+        texture: weapons/salmon_sword
+    attribute_modifiers:
+        mainhand:
+          attack_damage: 6.12
+          attack_speed: 1.6
+        offhand:
+          attack_damage: 6.12
+          attack_speed: 1.6
+  flatfish_sword:
+    name: 광어 검
+    durability:
+        max_durability: 544
+    resource:
+        material: "IRON_SWORD"
+        generate: true
+        texture: weapons/flatfish_sword
+    attribute_modifiers:
+        mainhand:
+          attack_damage: 5.67
+          attack_speed: 1.66
+        offhand:
+          attack_damage: 5.67
+          attack_speed: 1.66
+  eel_sword:
+    name: 장어 검
+    durability:
+        max_durability: 535
+    resource:
+        material: "IRON_SWORD"
+        generate: true
+        texture: weapons/eel_sword
+    attribute_modifiers:
+        mainhand:
+          attack_damage: 5.89
+          attack_speed: 1.63
+          attack_knockback: 1
+        offhand:
+          attack_damage: 5.89
+          attack_speed: 1.63
+          attack_knockback: 1
+  shrimp_sword:
+    name: 새우 검
+    durability:
+        max_durability: 201
+    resource:
+        material: "IRON_SWORD"
+        generate: true
+        texture: weapons/shrimp_sword
+    attribute_modifiers:
+        mainhand:
+          attack_damage: 7.05
+          attack_speed: 1.59
+        offhand:
+          attack_damage: 7.05
+          attack_speed: 1.59
+  dragon_roll_sword:
+    name: 드래곤 롤 검
+    durability:
+        max_durability: 1573
+    resource:
+        material: "DIAMOND_SWORD"
+        generate: false
+        model_path: weapons/dragon_roll_sword
+    attribute_modifiers:
+        mainhand:
+          attack_damage: 7.55
+          attack_speed: 1.6
+        offhand:
+          attack_damage: 7.55
+          attack_speed: 1.6
+  sushi_waterball_sword:
+    name: 초밥 워터볼 검
+    durability:
+        max_durability: 601
+    resource:
+        material: "IRON_SWORD"
+        generate: true
+        texture: weapons/sushi_waterball_sword
+    attribute_modifiers:
+        mainhand:
+          attack_damage: 6.87
+          attack_speed: 1.71
+        offhand:
+          attack_damage: 6.87
+          attack_speed: 1.71
+  sushi_rice_sword:
+      name: 초밥 밥알 검
+      durability:
+          max_durability: 455
+      resource:
+          material: "IRON_SWORD"
+          generate: true
+          texture: weapons/sushi_rice_sword
+      attribute_modifiers:
+          mainhand:
+            attack_damage: 6.35
+            attack_speed: 1.6
+          offhand:
+            attack_damage: 6.35
+            attack_speed: 1.6
+  water_shark_sword:
+    name: 청상아리 검
+    durability:
+        max_durability: 1573
+    resource:
+        material: "DIAMOND_SWORD"
+        generate: false
+        model_path: weapons/water_shark_sword
+    attribute_modifiers:
+        mainhand:
+          attack_damage: 7.55
+          attack_speed: 1.6
+        offhand:
+          attack_damage: 7.55
+          attack_speed: 1.6
+  egg_sushi_sword:
+    name: 계란 초밥 검
+    durability:
+        max_durability: 573
+    resource:
+        material: "IRON_SWORD"
+        generate: true
+        texture: weapons/egg_sushi_sword
+    attribute_modifiers:
+        mainhand:
+          attack_damage: 6.31
+          attack_speed: 1.6
+        offhand:
+          attack_damage: 6.31
+          attack_speed: 1.6
+  mackerel_sword:
+    name: 고등어 검
+    durability:
+        max_durability: 437
+    resource:
+        material: "IRON_SWORD"
+        generate: true
+        texture: weapons/mackerel_sword
+    attribute_modifiers:
+        mainhand:
+          attack_damage: 6.54
+          attack_speed: 1.38
+        offhand:
+          attack_damage: 6.54
+          attack_speed: 1.38
+  jellyfish_sushi_sword:
+    name: 해파리 초밥 검
+    durability:
+        max_durability: 769
+    resource:
+        material: "IRON_SWORD"
+        generate: true
+        texture: weapons/jellyfish_sushi_sword
+    attribute_modifiers:
+        mainhand:
+          attack_damage: 6.12
+          attack_speed: 1.58
+        offhand:
+          attack_damage: 6.12
+          attack_speed: 1.58
+  cucumber_wasabi_sword:
+    name: 오이 와사비 검
+    durability:
+        max_durability: 213
+    resource:
+        material: "IRON_SWORD"
+        generate: true
+        texture: weapons/cucumber_wasabi_sword
+    attribute_modifiers:
+        mainhand:
+          attack_damage: 6.27
+          attack_speed: 1.55
+        offhand:
+          attack_damage: 6.27
+          attack_speed: 1.55
+  yellowtail_sword:
+    name: 방어 검
+    durability:
+        max_durability: 213
+    resource:
+        material: "IRON_SWORD"
+        generate: true
+        texture: weapons/yellowtail_sword
+    attribute_modifiers:
+        mainhand:
+          attack_damage: 6.27
+          attack_speed: 1.55
+        offhand:
+          attack_damage: 6.27
+          attack_speed: 1.55
+  suisame_sword:
+    name: 스이사메 검
+    durability:
+        max_durability: 2178
+    resource:
+        material: "NETHERITE_SWORD"
+        generate: false
+        model_path: weapons/suisame_sword
+    attribute_modifiers:
+        mainhand:
+          attack_damage: 8.77
+          attack_speed: 1.5
+        offhand:
+          attack_damage: 8.77
+          attack_speed: 1.5
+  squid_sushi_sword:
+    name: 오징어 초밥 검
+    durability:
+        max_durability: 378
+    resource:
+        material: "IRON_SWORD"
+        generate: true
+        texture: weapons/squid_sushi_sword
+    attribute_modifiers:
+        mainhand:
+          attack_damage: 6.71
+          attack_speed: 1.54
+        offhand:
+          attack_damage: 6.71
+          attack_speed: 1.54
+  super_king_sushi_sword:
+    name: 슈퍼 킹 초밥 검
+    durability:
+        max_durability: 3819
+    resource:
+        material: "NETHERITE_SWORD"
+        generate: false
+        model_path: weapons/super_king_sushi_sword
+    attribute_modifiers:
+        mainhand:
+          attack_damage: 9
+          attack_speed: 1.48
+        offhand:
+          attack_damage: 9
+          attack_speed: 1.48
+  octopus_sushi_sword:
+    name: 문어 초밥 검
+    durability:
+        max_durability: 344
+    resource:
+        material: "IRON_SWORD"
+        generate: true
+        texture: weapons/octopus_sushi_sword
+    attribute_modifiers:
+        mainhand:
+          attack_damage: 6.36
+          attack_speed: 1.6
+        offhand:
+          attack_damage: 6.36
+          attack_speed: 1.6
+  beef_sushi_sword:
+    name: 소고기 초밥 검
+    durability:
+        max_durability: 488
+    resource:
+        material: "IRON_SWORD"
+        generate: true
+        texture: weapons/beef_sushi_sword
+    attribute_modifiers:
+        mainhand:
+          attack_damage: 6.62
+          attack_speed: 1.43
+        offhand:
+          attack_damage: 6.62
+          attack_speed: 1.43
+  congerfish_sword:
+    name: 붕장어 검
+    durability:
+        max_durability: 509
+    resource:
+        material: "IRON_SWORD"
+        generate: true
+        texture: weapons/congerfish_sword
+    attribute_modifiers:
+        mainhand:
+          attack_damage: 6.69
+          attack_speed: 1.6
+        offhand:
+          attack_damage: 6.69
+          attack_speed: 1.6
+  seabream_sushi_sword:
+    name: 도미 초밥 검
+    durability:
+        max_durability: 429
+    resource:
+        material: "IRON_SWORD"
+        generate: true
+        texture: weapons/seabream_sushi_sword
+    attribute_modifiers:
+        mainhand:
+          attack_damage: 6.76
+          attack_speed: 1.5
+        offhand:
+          attack_damage: 6.76
+          attack_speed: 1.5
+  horsemackerel_sushi_sword:
+    name: 전갱이 초밥 검
+    durability:
+        max_durability: 561
+    resource:
+        material: "IRON_SWORD"
+        generate: true
+        texture: weapons/horsemackerel_sushi_sword
+    attribute_modifiers:
+        mainhand:
+          attack_damage: 5.88
+          attack_speed: 1.613
+        offhand:
+          attack_damage: 5.88
+          attack_speed: 1.613
+  seaurchin_sword:
+    name: 성게 검
+    durability:
+        max_durability: 526
+    resource:
+        material: "IRON_SWORD"
+        generate: true
+        texture: weapons/seaurchin_sword
+    attribute_modifiers:
+        mainhand:
+          attack_damage: 6.48
+          attack_speed: 1.5
+        offhand:
+          attack_damage: 6.48
+          attack_speed: 1.5
+  salmonroe_sword:
+    name: 연어알 검
+    durability:
+        max_durability: 521
+    resource:
+        material: "IRON_SWORD"
+        generate: true
+        texture: weapons/salmonroe_sword
+    attribute_modifiers:
+        mainhand:
+          attack_damage: 6.482
+          attack_speed: 1.523
+        offhand:
+          attack_damage: 6.482
+          attack_speed: 1.523
+  tunabellymeat_sushi_sword:
+    name: 참치뱃살 초밥 검
+    durability:
+        max_durability: 694
+    resource:
+        material: "IRON_SWORD"
+        generate: true
+        texture: weapons/tunabellymeat_sushi_sword
+    attribute_modifiers:
+        mainhand:
+          attack_damage: 6.83
+          attack_speed: 1.67
+        offhand:
+          attack_damage: 6.83
+          attack_speed: 1.67
+  shrimp_with_soysauce_sushi_sword:
+      name: 간장새우 초밥 검
+      durability:
+          max_durability: 956
+      resource:
+          material: "DIAMOND_SWORD"
+          generate: true
+          texture: weapons/shrimp_with_soysauce_sushi_sword
+      attribute_modifiers:
+          mainhand:
+            attack_damage: 7.24
+            attack_speed: 1.36
+          offhand:
+            attack_damage: 7.24
+            attack_speed: 1.36
+  scallops_sushi_sword:
+    name: 관자초밥 검
+    durability:
+        max_durability: 212
+    resource:
+        material: "IRON_SWORD"
+        generate: true
+        texture: weapons/scallops_sushi_sword
+    attribute_modifiers:
+        mainhand:
+          attack_damage: 6.52
+          attack_speed: 1.2
+        offhand:
+          attack_damage: 6.52
+          attack_speed: 1.2
+  inari_sushi_sword:
+    name: 유부초밥 검
+    durability:
+        max_durability: 357
+    resource:
+        material: "IRON_SWORD"
+        generate: true
+        texture: weapons/inari_sushi_sword
+    attribute_modifiers:
+        mainhand:
+          attack_damage: 6.41
+          attack_speed: 1.68
+        offhand:
+          attack_damage: 6.41
+          attack_speed: 1.68
+  wasabi_sword:
+    name: 와사비 검
+    durability:
+        max_durability: 500
+    resource:
+        material: "IRON_SWORD"
+        generate: true
+        texture: weapons/wasabi_sword
+    attribute_modifiers:
+        mainhand:
+          attack_damage: 6.5
+          attack_speed: 1.6
+        offhand:
+          attack_damage: 6.5
+          attack_speed: 1.6
+  laver_sword:
+    name: 김 검
+    durability:
+        max_durability: 550
+    resource:
+        material: "IRON_SWORD"
+        generate: true
+        texture: weapons/laver_sword
+    attribute_modifiers:
+        mainhand:
+          attack_damage: 6.52
+          attack_speed: 1.63
+        offhand:
+          attack_damage: 6.52
+          attack_speed: 1.63
+  soysauce_sword:
+    name: 간장 검
+    durability:
+        max_durability: 525
+    resource:
+        material: "IRON_SWORD"
+        generate: true
+        texture: weapons/soysauce_sword
+    attribute_modifiers:
+        mainhand:
+          attack_damage: 6.25
+          attack_speed: 1.61
+        offhand:
+          attack_damage: 6.25
+          attack_speed: 1.61
