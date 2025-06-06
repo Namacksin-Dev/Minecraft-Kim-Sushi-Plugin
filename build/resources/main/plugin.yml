@@ -1,0 +1,14 @@
+name: sushi
+version: '1.0-SNAPSHOT'
+main: org.sushi.sushi.Sushi
+api-version: '1.21'
+commands:
+  김초밥:
+    description: 김초밥 관련 정보를 보여줍니다.
+  김초밥강화:
+    description: 김초밥 강화 매뉴를 엽니다.
+  김초밥매뉴:
+    description: 김초밥 매인 매뉴를 엽니다.
+  김초밥상점:
+    description: 김초밥 상점 매뉴를 엽니다.
+depend: [ItemsAdder]
